@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name = "author" content = "Jacob DeVage">
+    <meta name = "description" contents="This page is a homepage">
+    
+
+    <title>Jacob DeVage's Website Portfolio</title>
+    <link rel="icon" href="00-Medium Shield.jpg" type ="image/x-icon">
+    <p>Welcome to my Portfolio</p>
+    <br>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      
+      <center><img src="IMG_2235.jpg" style="width:67%"></center>
+      <div class="text">My Pfizer internship!</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <center><img src="MTENALV-031.jpg" style="width:75%"></center>
+     
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <center><img src="MTENALV-187.jpg" style="width:75%"></center>
+      
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", ""); 
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+    
+    </script>
+    
+    </body>
+    </html> 
+    <center><h3>Hello! My name is Jacob DeVage. I am a Junior at Eastern university studying Data Science with minors in Computer Science and Business</h3></center>
+    <center><h3>I am looking for an internship opportunity that will allow me to further grow in my technical and leadership abilities.</h3></center>
+    
+
+
+    <nav></nav>
+      <div class="navbar">
+      
+        <a href="About.html">About</a>
+        <a href="Classes.html">Classes</a>
+        <a href="Projects.html">Projects</a>
+        <a href="LeadershipInitiatives.html">Leadership</a>
+        
+      </div>
+    
+   
+  
+    
+    
+    
+</head>
+<body>
+  
+
+  
+  <hr>
+
+  <h2> B.S. Data Science </h1>
+
+  
+  <h3><center>My Resume: <a  href="JacobDeVage-Resume.pdf"use target="_blank">Resume</a></h2></center>
+    
+ <center> <h3> Phone number: 
+  <a href="tel:+6104018275" use target="_blank"> 610-401-8275</a>
+  </h3> </center>
+  <h3> <center>
+    Email: <a  href="mailto:jacobdevage@yahoo.com"use target="_blank">jacobdevage@yahoo.com</a> </h2>
+  </center>
+
+
+  <center>
+  <h3> My Linkedin Profile:
+  <a href="https://www.linkedin.com/in/jacob-devage-7935a41b6/"use target="_blank">My Profile</a>
+</h3>
+</center>
+  <hr>
+ 
+  
+  <h2>HONORS</h2>
+  <center><p>Dean's List</p>
+  </center>
+  <hr>
+
+ 
+
+
+
+
+  
+    
+
+    
+  
+
+
+
+
+
+  &lt;&lt;&lt; &copy; Jacob DeVage &lt; &lt; &lt;
+  <link rel = "stylesheet" href = "main.css" type="text/css">
+
+</body>
+
+<header>
+  
+</header>
+</html>
